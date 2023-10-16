@@ -1,0 +1,70 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    padding-left: 50% 25px;
+    margin-left: 10%;
+}
+
+.card{
+width: 25%;
+display: inline-block;
+box-shadow: 2px 2px 20px black;
+border-radius: 25px; 
+margin: 2%;
+}
+.image img{
+width: 100%;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+.title{
+    font-style: italic;
+    color: brown;
+text-align: center;
+padding: 10px;
+}
+h1{
+font-size: 20px;
+}
+.des{
+    line-height: 1.7;
+padding: 10px 30px;
+text-align: justify;
+
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+button{
+margin-top: 20px;
+margin-bottom: 10px;
+background-color: white;
+border: 1px solid black;
+border-radius: 5px;
+padding:10px;
+}
+button:hover{
+background-color: rgb(54, 7, 243);
+color: white;
+transition: .5s;
+cursor: pointer;
+}
+
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+h5{
+    font-style: italic;
+    color: rgb(83, 244, 9);
+}
+.para{
+    font-size: medium;
+    text-align: justify;
+}
